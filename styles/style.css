@@ -1,5 +1,4 @@
 @import 'fonts.css';
-
 * {
     margin: 0;
     padding: 0;
@@ -126,7 +125,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    column-gap: 100px;
     padding: 25px 0;
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid #EAEAEA;
@@ -143,6 +141,7 @@ body {
     font-size: 30px;
     line-height: 37px;
     font-family: 'mont-bold';
+    text-align: center;
 }
 
 /* MAIN START */
@@ -265,8 +264,8 @@ body {
     margin-right: 30px;
 }
 
-.main__title {
-    text-align: center;
+.main__offer .container .main__title {
+    margin-bottom: 30px;
 }
 
 .main__offer-items {
